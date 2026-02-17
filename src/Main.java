@@ -4,7 +4,7 @@ class Main
 {
     public static void main(String[] args) {
 
-        print ("Hello , Welcome to my Palindrome Checker.")
+        System.out.println("Hello , Welcome to my Palindrome Checker.");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
         int flag = 0 ;
@@ -19,6 +19,6 @@ class Main
         }
         if (flag == 0) System.out.println("Palindrome") ;
         else System.out.println("Not a palindrome") ;
-
+        System.out.println("srihari is motu in aryan's dream.") ;
     }
 }
