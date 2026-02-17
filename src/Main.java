@@ -3,6 +3,8 @@ import java.util.Scanner;
 class Main
 {
     public static void main(String[] args) {
+
+        print ("Hello , Welcome to my Palindrome Checker.")
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
         int flag = 0 ;
