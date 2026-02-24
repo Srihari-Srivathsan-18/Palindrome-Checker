@@ -19,6 +19,6 @@ class uc2
         }
         if (flag == 0) System.out.println("Palindrome") ;
         else System.out.println("Not a palindrome") ;
-        System.out.println("srihari is motu in aryan's dream.") ;
+        System.out.println("See you soon !") ;
     }
 }

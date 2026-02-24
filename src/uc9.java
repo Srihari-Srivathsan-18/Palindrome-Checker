@@ -14,12 +14,12 @@ public class uc9{
 
         // Base Condition: If pointers cross or meet
         if (start >= end) {
-            return true;
+           return true ;
         }
 
         // If mismatch found
         if (str.charAt(start) != str.charAt(end)) {
-            return false;
+            return false ;
         }
 
         // Recursive Call
