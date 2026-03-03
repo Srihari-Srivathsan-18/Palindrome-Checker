@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-class Main
+class uc2
 {
     public static void main(String[] args) {
+
+        System.out.println("Hello , Welcome to my Palindrome Checker.");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
         int flag = 0 ;
@@ -17,6 +19,6 @@ class Main
         }
         if (flag == 0) System.out.println("Palindrome") ;
         else System.out.println("Not a palindrome") ;
-
+        System.out.println("See you soon !") ;
     }
 }
